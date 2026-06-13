@@ -5,7 +5,10 @@
 
 'use strict';
 
-const API_BASE = window.location.origin + '/api';
+let API_BASE = window.location.origin + '/api';
+if (window.location.hostname.includes('vercel.app')) {
+  API_BASE = 'https://loyaltics-api.onrender.com/api';
+}
 
 // Loader Simulation
 (function initLoader() {
