@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loyalytics — Turning Data into Loyalty</title>
+  <meta name="description" content="Predict customer churn before it happens with our high-accuracy ensemble model and explainable AI insights." />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">◈ Loyalytics</div>
+      <div class="loader-bar-wrap">
+        <div class="loader-bar" id="loaderBar"></div>
+      </div>
+      <div class="loader-status" id="loaderStatus">Initializing models...</div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="nav-logo-icon">◈</span>
+        Loyalytics
+      </a>
+      <ul class="nav-links">
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#analytics">Analytics</a></li>
+        <li><a href="#history">History</a></li>
+      </ul>
+      <a href="#predict" class="nav-cta">Try Prediction →</a>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#analytics">Analytics</a></li>
+      <li><a href="#history">History</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- ═══════════ HERO ═══════════ -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span class="hero-eyebrow-dot"></span>
+          Retention Intelligence Platform
+        </div>
+        <h1 class="hero-headline">
+          Know Who's Leaving <br />
+          <span class="headline-accent">Before They Do</span>
+        </h1>
+        <p class="hero-sub">
+          Loyalytics combines predictive analytics, ensemble machine learning, and explainable AI to detect potential customer churn. Empowering businesses with intelligent retention campaigns and transparent decision insights.
+        </p>
+        <div class="hero-actions">
+          <a href="#predict" class="btn-primary">Run Prediction</a>
+          <a href="#analytics" class="btn-secondary">View Analytics</a>
+        </div>
+        <div class="hero-metrics">
+          <div class="metric-card">
+            <div class="metric-card-label">Total Customers</div>
+            <div class="metric-card-value">7,032</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-card-label">Churn Rate</div>
+            <div class="metric-card-value">26.6%</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-card-label">Model Accuracy</div>
+            <div class="metric-card-value">82.4%</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-decor">
+        <svg viewBox="0 0 100 100" width="100%" height="100%" fill="none" stroke="var(--accent)" stroke-width="0.5">
+          <circle cx="50" cy="50" r="40" stroke-dasharray="2 2" />
+          <circle cx="50" cy="50" r="25" />
+          <path d="M10 50 h80 M50 10 v80" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- ═══════════ HOW IT WORKS ═══════════ -->
+    <section class="section section--alt" id="how-it-works">
+      <div class="container">
+        <div class="section-header section-header--center">
+          <div class="section-eyebrow">Methodology</div>
+          <h2 class="section-title">How <em>Loyalytics</em> Works</h2>
+          <p class="section-desc">We convert complex customer interactions into high-fidelity churn probabilities using clean ML engineering.</p>
+        </div>
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-num">01</div>
+            <div class="step-icon">
+              <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
+            </div>
+            <h3 class="step-title">Customer Data</h3>
+            <p class="step-desc">Ingest subscriber contract, demographic, billing history, and service data attributes directly.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">02</div>
+            <div class="step-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" /></svg>
+            </div>
+            <h3 class="step-title">ML Engine</h3>
+            <p class="step-desc">Execute inference against the pre-trained Gradient Boosting classifier model pipeline.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">03</div>
+            <div class="step-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z M12 6v6l4 2" /></svg>
+            </div>
+            <h3 class="step-title">Risk Score</h3>
+            <p class="step-desc">Receive explainable churn risk probabilities, complete with SHAP feature attributions and recommendations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ FEATURES ═══════════ -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-eyebrow">Capabilities</div>
+          <h2 class="section-title">Engineered for <em>Retention Teams</em></h2>
+          <p class="section-desc">Powerful modular design built to identify, explain, and mitigate subscriber churn.</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2L2 22h20L12 2z" /></svg>
+            </div>
+            <h3 class="feature-title">Churn Prediction</h3>
+            <p class="feature-desc">Real-time prediction with advanced ensemble model validation metrics.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /></svg>
+            </div>
+            <h3 class="feature-title">Risk Analysis</h3>
+            <p class="feature-desc">Categorizes customers into Low, Moderate, or High Risk tiers dynamically.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" /></svg>
+            </div>
+            <h3 class="feature-title">Explainable AI</h3>
+            <p class="feature-desc">Attribution bars explaining which customer signals contribute to the churn risk score.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M18 20V10M12 20V4M6 20v-6" /></svg>
+            </div>
+            <h3 class="feature-title">Analytics Dashboard</h3>
+            <p class="feature-desc">Visualizations highlighting demographic distributions and service correlations.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+            </div>
+            <h3 class="feature-title">History Logs</h3>
+            <p class="feature-desc">Searchable, sortable, and paginated logs of past simulation predictions.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+            </div>
+            <h3 class="feature-title">Intervention</h3>
+            <p class="feature-desc">Personalized AI recommendations based on customer profiles to lower churn probability.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ STATS BAR ═══════════ -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="stats-bar">
+          <div class="stat-item">
+            <div class="stat-value">7,032</div>
+            <div class="stat-label">Dataset Size</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">26.6%</div>
+            <div class="stat-label">Overall Churn</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">82.4%</div>
+            <div class="stat-label">Validation AUC</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">5</div>
+            <div class="stat-label">Key Risk Factors</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ ANALYTICS ═══════════ -->
+    <section class="section" id="analytics">
+      <div class="container">
+        <div class="section-header section-header--center">
+          <div class="section-eyebrow">Enterprise Dashboard</div>
+          <h2 class="section-title">Model & Dataset Analytics</h2>
+          <p class="section-desc">Explore the distributions, feature correlations, and performance details of our predictive model.</p>
+        </div>
+        <div class="analytics-grid">
+          <div class="chart-card">
+            <div class="chart-card-header">
+              <div class="chart-title">Churn Distribution</div>
+              <span class="chart-badge">Historical</span>
+            </div>
+            <div class="chart-wrap"><canvas id="chartChurnDist"></canvas></div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-card-header">
+              <div class="chart-title">Contract Types</div>
+              <span class="chart-badge">Tenure Signal</span>
+            </div>
+            <div class="chart-wrap"><canvas id="chartContract"></canvas></div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-card-header">
+              <div class="chart-title">Monthly Charges Distribution</div>
+              <span class="chart-badge">Financial</span>
+            </div>
+            <div class="chart-wrap"><canvas id="chartCharges"></canvas></div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-card-header">
+              <div class="chart-title">Tenure Distribution (Months)</div>
+              <span class="chart-badge">Lifespan</span>
+            </div>
+            <div class="chart-wrap"><canvas id="chartTenure"></canvas></div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-card-header">
+              <div class="chart-title">Internet Service Type</div>
+              <span class="chart-badge">Product Mix</span>
+            </div>
+            <div class="chart-wrap"><canvas id="chartInternet"></canvas></div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-card-header">
+              <div class="chart-title">Model Performance Radar</div>
+              <span class="chart-badge">Gradient Boosting</span>
+            </div>
+            <div class="chart-wrap"><canvas id="chartModelPerf"></canvas></div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-card-header">
+              <div class="chart-title">Tenure vs No of Customers</div>
+              <span class="chart-badge">Loyalty vs Churn</span>
+            </div>
+            <div class="chart-wrap"><canvas id="chartTenureVsChurn"></canvas></div>
+          </div>
+          <div class="chart-card chart-card--full">
+            <div class="chart-card-header">
+              <div class="chart-title">Global Feature Importance (Top 10 Drivers)</div>
+              <span class="chart-badge">Ensemble Weights</span>
+            </div>
+            <div class="chart-wrap"><canvas id="chartFeatureImp"></canvas></div>
+          </div>
+          <div class="chart-card chart-card--full">
+            <div class="chart-card-header">
+              <div class="chart-title">Recent Predictions Risk Trend (%)</div>
+              <span class="chart-badge">Live Logging</span>
+            </div>
+            <div class="chart-wrap"><canvas id="chartPredTrend"></canvas></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ PREDICTION ═══════════ -->
+    <section class="section section--alt" id="predict">
+      <div class="container">
+        <div class="section-header section-header--center">
+          <div class="section-eyebrow">Interactive Simulator</div>
+          <h2 class="section-title">Run Live <em>Risk Inference</em></h2>
+          <p class="section-desc">Fill in the customer profile below and click Analyze — results appear instantly below the form.</p>
+        </div>
+
+        <!-- Form: Two-column grid of fields -->
+        <div class="predict-form-wrap">
+          <form id="predictionForm" onsubmit="return false;" class="predict-form-grid">
+
+            <!-- Left column -->
+            <div class="predict-col">
+              <div class="form-section-label">Demographics</div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="gender">Gender</label>
+                  <select id="gender" class="form-select">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="senior_citizen">Senior Citizen</label>
+                  <select id="senior_citizen" class="form-select">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="partner">Has Partner</label>
+                  <select id="partner" class="form-select">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="dependents">Has Dependents</label>
+                  <select id="dependents" class="form-select">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                  </select>
+                </div>
+              </div>
+
+              <hr class="form-divider" />
+              <div class="form-section-label">Account & Billing</div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="tenure">Tenure (Months)</label>
+                  <input type="number" id="tenure" class="form-input" min="1" max="72" value="12" required />
+                </div>
+                <div class="form-group">
+                  <label for="monthly_charges">Monthly Charges ($)</label>
+                  <input type="number" id="monthly_charges" class="form-input" min="10" max="150" step="0.01" value="65.00" required />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contract">Contract Type</label>
+                  <select id="contract" class="form-select">
+                    <option value="Month-to-month">Month-to-Month</option>
+                    <option value="One year">One Year</option>
+                    <option value="Two year">Two Year</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="payment_method">Payment Method</label>
+                  <select id="payment_method" class="form-select">
+                    <option value="Electronic check">Electronic Check</option>
+                    <option value="Mailed check">Mailed Check</option>
+                    <option value="Bank transfer (automatic)">Bank Transfer (Auto)</option>
+                    <option value="Credit card (automatic)">Credit Card (Auto)</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="paperless_billing">Paperless Billing</label>
+                  <select id="paperless_billing" class="form-select">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right column -->
+            <div class="predict-col">
+              <div class="form-section-label">Services</div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="internet_service">Internet Service</label>
+                  <select id="internet_service" class="form-select">
+                    <option value="Fiber optic">Fiber Optic</option>
+                    <option value="DSL">DSL</option>
+                    <option value="No">No Internet Service</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="phone_service">Phone Service</label>
+                  <select id="phone_service" class="form-select">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="multiple_lines">Multiple Lines</label>
+                  <select id="multiple_lines" class="form-select">
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No phone service">No Phone Service</option>
+                  </select>
+                </div>
+              </div>
+
+              <hr class="form-divider" />
+              <div class="form-section-label">Add-on Subscriptions</div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="online_security">Online Security</label>
+                  <select id="online_security" class="form-select">
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No internet service">No Internet Service</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="online_backup">Online Backup</label>
+                  <select id="online_backup" class="form-select">
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No internet service">No Internet Service</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="device_protection">Device Protection</label>
+                  <select id="device_protection" class="form-select">
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No internet service">No Internet Service</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="tech_support">Tech Support</label>
+                  <select id="tech_support" class="form-select">
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No internet service">No Internet Service</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="streaming_tv">Streaming TV</label>
+                  <select id="streaming_tv" class="form-select">
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No internet service">No Internet Service</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="streaming_movies">Streaming Movies</label>
+                  <select id="streaming_movies" class="form-select">
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No internet service">No Internet Service</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </form>
+
+          <!-- Submit button — full width below both columns -->
+          <div class="predict-submit-row">
+            <button type="submit" form="predictionForm" class="form-submit" id="predictBtn">
+              <span class="btn-text">Analyze Customer →</span>
+              <div class="spinner"></div>
+            </button>
+          </div>
+        </div>
+
+        <!-- Result Panel — full width, slides in BELOW the form -->
+        <div id="resultWrapper" class="result-wrapper">
+          <!-- Empty idle state -->
+          <div class="result-idle-state" id="resultIdleState">
+            <div class="result-idle-icon">◈</div>
+            <h3>Awaiting Analysis</h3>
+            <p>Fill in the customer profile above and click <strong>Analyze Customer</strong> to see the AI risk verdict here.</p>
+          </div>
+
+          <!-- Filled result — hidden until prediction runs -->
+          <div class="result-filled" id="resultFilled" style="display:none;">
+            <!-- Top row: verdict + probability -->
+            <div class="result-top-row">
+              <div class="result-verdict-block">
+                <div class="result-verdict-label">Churn Verdict</div>
+                <span class="result-badge" id="verdictBadge">—</span>
+              </div>
+              <div class="result-prob-ring">
+                <svg class="ring-svg" viewBox="0 0 120 120">
+                  <circle cx="60" cy="60" r="50" fill="none" stroke="var(--border)" stroke-width="10"/>
+                  <circle cx="60" cy="60" r="50" fill="none" stroke="var(--ring-color, #C6A87A)" stroke-width="10"
+                          stroke-dasharray="314" stroke-dashoffset="314"
+                          id="riskRingFill" stroke-linecap="round" transform="rotate(-90 60 60)"/>
+                </svg>
+                <div class="ring-label">
+                  <div class="ring-val" id="churnProbVal">0%</div>
+                  <div class="ring-sub">Risk</div>
+                </div>
+              </div>
+              <div class="result-level-block">
+                <div class="result-verdict-label">Risk Category</div>
+                <span class="result-risk-pill" id="riskLevelVal">—</span>
+              </div>
+            </div>
+
+            <!-- Risk meter bar -->
+            <div class="risk-meter">
+              <div class="risk-meter-header">
+                <span class="risk-meter-label">Risk Score</span>
+                <span class="risk-meter-value" id="riskMeterPct">0%</span>
+              </div>
+              <div class="risk-meter-track">
+                <div class="risk-meter-fill" id="riskMeterFill"></div>
+              </div>
+            </div>
+
+            <!-- Two-column: XAI bars + Recommendations -->
+            <div class="result-detail-grid">
+              <div class="xai-section">
+                <h4 class="xai-title">
+                  <svg viewBox="0 0 16 16" width="14" height="14"><path d="M8 1l7 14H1L8 1z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+                  Feature Attribution (SHAP Drivers)
+                </h4>
+                <div id="xaiBarsContainer"></div>
+              </div>
+              <div class="recs-section">
+                <h4 class="recs-title">
+                  <svg viewBox="0 0 16 16" width="14" height="14"><path d="M8 2a6 6 0 1 0 0 12A6 6 0 0 0 8 2zM8 7v4M8 5v1" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+                  Retention Recommendations
+                </h4>
+                <div class="recs-list" id="recsList"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════ HISTORY ═══════════ -->
+    <section class="section" id="history">
+      <div class="container">
+        <div class="section-header section-header--center">
+          <div class="section-eyebrow">Telemetry Ledger</div>
+          <h2 class="section-title">Prediction Logs</h2>
+          <p class="section-desc">Audit past predictions run on this instance.</p>
+        </div>
+        <div class="history-controls">
+          <input type="text" id="historySearch" class="history-search" placeholder="Search by risk category..." />
+        </div>
+        <div class="history-table-wrap">
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th>Timestamp</th>
+                <th>Contract</th>
+                <th>Monthly Charges</th>
+                <th>Risk Level</th>
+                <th>Probability</th>
+              </tr>
+            </thead>
+            <tbody id="historyTableBody"></tbody>
+          </table>
+          <div class="pagination">
+            <button id="prevPageBtn">Previous</button>
+            <span id="pageNumberLabel">Page 1 of 1</span>
+            <button id="nextPageBtn">Next</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="footer-logo-icon">◈</span>
+            Loyalytics
+          </div>
+          <p class="footer-tagline">Enterprise retention intelligence powered by Gradient Boosted Decision Trees.</p>
+          <div class="footer-tech">
+            <span>Flask</span>
+            <span>Gunicorn</span>
+            <span>Scikit-learn</span>
+            <span>Chart.js</span>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Documentation</div>
+          <div class="footer-links">
+            <a href="#how-it-works">ML Pipeline</a>
+            <a href="#analytics">Model Validation</a>
+            <a href="#predict">Inference API</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Platform</div>
+          <div class="footer-links">
+            <a href="#predict">Run Prediction</a>
+            <a href="#analytics">Executive Dashboard</a>
+            <a href="#history">Audit Ledger</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Loyalytics Inc. All rights reserved.</span>
+        <span class="footer-team">Team Error </br> Priyanshu Pandey </br> Aarushi Khare </br> Sameena Naseem </br> Aditya Pandey</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

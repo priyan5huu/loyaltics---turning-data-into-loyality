@@ -1,0 +1,22 @@
+{
+  "accuracy": 78.61,
+  "precision": 62.46,
+  "recall": 48.93,
+  "f1_score": 54.87,
+  "roc_auc": 82.42,
+  "model_name": "GradientBoostingClassifier (Tuned)",
+  "n_samples": 7032,
+  "n_features": 28,
+  "test_size": 1407,
+  "train_size": 5625,
+  "confusion_matrix": [
+    [
+      923,
+      110
+    ],
+    [
+      191,
+      183
+    ]
+  ]
+}

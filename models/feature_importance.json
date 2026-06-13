@@ -1,0 +1,114 @@
+[
+  {
+    "feature": "Contract_Month-to-month",
+    "importance": 0.2819
+  },
+  {
+    "feature": "ChargeRatio",
+    "importance": 0.1783
+  },
+  {
+    "feature": "MonthlyCharges",
+    "importance": 0.1408
+  },
+  {
+    "feature": "TotalCharges",
+    "importance": 0.1226
+  },
+  {
+    "feature": "InternetService_Fiber optic",
+    "importance": 0.0799
+  },
+  {
+    "feature": "PaymentMethod_Electronic check",
+    "importance": 0.0235
+  },
+  {
+    "feature": "OnlineSecurity",
+    "importance": 0.0167
+  },
+  {
+    "feature": "tenure",
+    "importance": 0.014
+  },
+  {
+    "feature": "tenure_sq",
+    "importance": 0.0138
+  },
+  {
+    "feature": "gender",
+    "importance": 0.0136
+  },
+  {
+    "feature": "PaperlessBilling",
+    "importance": 0.0134
+  },
+  {
+    "feature": "SeniorCitizen",
+    "importance": 0.0129
+  },
+  {
+    "feature": "TechSupport",
+    "importance": 0.012
+  },
+  {
+    "feature": "PhoneService",
+    "importance": 0.0103
+  },
+  {
+    "feature": "MultipleLines",
+    "importance": 0.0088
+  },
+  {
+    "feature": "StreamingTV",
+    "importance": 0.0072
+  },
+  {
+    "feature": "OnlineBackup",
+    "importance": 0.0065
+  },
+  {
+    "feature": "StreamingMovies",
+    "importance": 0.0063
+  },
+  {
+    "feature": "Dependents",
+    "importance": 0.0058
+  },
+  {
+    "feature": "Partner",
+    "importance": 0.0052
+  },
+  {
+    "feature": "InternetService_DSL",
+    "importance": 0.005
+  },
+  {
+    "feature": "PaymentMethod_Mailed check",
+    "importance": 0.0043
+  },
+  {
+    "feature": "Contract_Two year",
+    "importance": 0.0038
+  },
+  {
+    "feature": "DeviceProtection",
+    "importance": 0.0034
+  },
+  {
+    "feature": "PaymentMethod_Bank transfer (automatic)",
+    "importance": 0.0029
+  },
+  {
+    "feature": "Contract_One year",
+    "importance": 0.0027
+  },
+  {
+    "feature": "PaymentMethod_Credit card (automatic)",
+    "importance": 0.0024
+  },
+  {
+    "feature": "InternetService_No",
+    "importance": 0.0021
+  }
+]

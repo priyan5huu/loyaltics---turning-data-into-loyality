@@ -1,0 +1,1265 @@
+[
+  {
+    "id": 24,
+    "timestamp": "2026-06-13T14:42:17.389974",
+    "input": {
+      "gender": "male",
+      "tenure": 12,
+      "monthly_charges": 65.0,
+      "contract": "monthly",
+      "internet_service": "fiber"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 45.2,
+      "confidence": 54.8,
+      "risk_level": "Moderate Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: InternetService Fiber optic",
+          "Increases risk: PaymentMethod Electronic check"
+        ],
+        "retention_factors": [],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.2819
+          },
+          {
+            "feature": "InternetService Fiber optic",
+            "type": "negative",
+            "text": "Increases risk: InternetService Fiber optic",
+            "score": 0.0799
+          },
+          {
+            "feature": "PaymentMethod Electronic check",
+            "type": "negative",
+            "text": "Increases risk: PaymentMethod Electronic check",
+            "score": 0.0235
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.014
+          }
+        ]
+      },
+      "recommendations": [
+        "Enroll customer in automated loyalty rewards campaign.",
+        "Send a proactive satisfaction survey with personalized follow-up.",
+        "Promote annual contract with a complimentary device offer.",
+        "Highlight value-added services the customer is not yet using."
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "timestamp": "2026-06-13T14:37:44.969282",
+    "input": {
+      "gender": "male",
+      "tenure": 12,
+      "monthly_charges": 65.0,
+      "contract": "monthly",
+      "internet_service": "fiber"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 45.2,
+      "confidence": 54.8,
+      "risk_level": "Moderate Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: InternetService Fiber optic",
+          "Increases risk: PaymentMethod Electronic check"
+        ],
+        "retention_factors": [],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.2819
+          },
+          {
+            "feature": "InternetService Fiber optic",
+            "type": "negative",
+            "text": "Increases risk: InternetService Fiber optic",
+            "score": 0.0799
+          },
+          {
+            "feature": "PaymentMethod Electronic check",
+            "type": "negative",
+            "text": "Increases risk: PaymentMethod Electronic check",
+            "score": 0.0235
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.014
+          }
+        ]
+      },
+      "recommendations": [
+        "Enroll customer in automated loyalty rewards campaign.",
+        "Send a proactive satisfaction survey with personalized follow-up.",
+        "Promote annual contract with a complimentary device offer.",
+        "Highlight value-added services the customer is not yet using."
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "timestamp": "2026-06-13T14:30:18.407719",
+    "input": {
+      "gender": "male",
+      "tenure": 12,
+      "monthly_charges": 65.0,
+      "contract": "monthly",
+      "internet_service": "fiber"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 45.2,
+      "confidence": 54.8,
+      "risk_level": "Moderate Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: InternetService Fiber optic",
+          "Increases risk: PaymentMethod Electronic check"
+        ],
+        "retention_factors": [],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.2819
+          },
+          {
+            "feature": "InternetService Fiber optic",
+            "type": "negative",
+            "text": "Increases risk: InternetService Fiber optic",
+            "score": 0.0799
+          },
+          {
+            "feature": "PaymentMethod Electronic check",
+            "type": "negative",
+            "text": "Increases risk: PaymentMethod Electronic check",
+            "score": 0.0235
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.014
+          }
+        ]
+      },
+      "recommendations": [
+        "Enroll customer in automated loyalty rewards campaign.",
+        "Send a proactive satisfaction survey with personalized follow-up.",
+        "Promote annual contract with a complimentary device offer.",
+        "Highlight value-added services the customer is not yet using."
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "timestamp": "2026-06-13T14:27:06.521328",
+    "input": {
+      "gender": "female",
+      "tenure": 25,
+      "monthly_charges": 65.0,
+      "contract": "monthly",
+      "internet_service": "fiber"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 37.8,
+      "confidence": 62.2,
+      "risk_level": "Low Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: InternetService Fiber optic",
+          "Increases risk: PaymentMethod Electronic check"
+        ],
+        "retention_factors": [],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.2819
+          },
+          {
+            "feature": "InternetService Fiber optic",
+            "type": "negative",
+            "text": "Increases risk: InternetService Fiber optic",
+            "score": 0.0799
+          },
+          {
+            "feature": "PaymentMethod Electronic check",
+            "type": "negative",
+            "text": "Increases risk: PaymentMethod Electronic check",
+            "score": 0.0235
+          }
+        ]
+      },
+      "recommendations": [
+        "Customer is stable \u2014 maintain regular touchpoint cadence.",
+        "Upsell opportunity: recommend Tech Support or Device Protection add-on."
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "timestamp": "2026-06-13T12:20:57.181763",
+    "input": {
+      "gender": "male",
+      "tenure": 12,
+      "monthly_charges": 65.0,
+      "contract": "monthly",
+      "internet_service": "fiber"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 45.2,
+      "confidence": 54.8,
+      "risk_level": "Moderate Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: InternetService Fiber optic",
+          "Increases risk: PaymentMethod Electronic check"
+        ],
+        "retention_factors": [],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.2819
+          },
+          {
+            "feature": "InternetService Fiber optic",
+            "type": "negative",
+            "text": "Increases risk: InternetService Fiber optic",
+            "score": 0.0799
+          },
+          {
+            "feature": "PaymentMethod Electronic check",
+            "type": "negative",
+            "text": "Increases risk: PaymentMethod Electronic check",
+            "score": 0.0235
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.014
+          }
+        ]
+      },
+      "recommendations": [
+        "Enroll customer in automated loyalty rewards campaign.",
+        "Send a proactive satisfaction survey with personalized follow-up.",
+        "Promote annual contract with a complimentary device offer.",
+        "Highlight value-added services the customer is not yet using."
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "timestamp": "2026-06-13T12:12:11.134807",
+    "input": {
+      "gender": "male",
+      "tenure": 2,
+      "monthly_charges": 42.3,
+      "contract": "monthly",
+      "internet_service": "fiber"
+    },
+    "result": {
+      "prediction": "Churn",
+      "probability": 76.6,
+      "confidence": 76.6,
+      "risk_level": "High Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: InternetService Fiber optic",
+          "Increases risk: Short Tenure"
+        ],
+        "retention_factors": [
+          "Decreases risk: PaymentMethod Mailed check"
+        ],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.2819
+          },
+          {
+            "feature": "InternetService Fiber optic",
+            "type": "negative",
+            "text": "Increases risk: InternetService Fiber optic",
+            "score": 0.0799
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.014
+          },
+          {
+            "feature": "PaymentMethod Mailed check",
+            "type": "positive",
+            "text": "Decreases risk: PaymentMethod Mailed check",
+            "score": 0.0043
+          }
+        ]
+      },
+      "recommendations": [
+        "Immediate action required \u2014 assign a dedicated retention agent within 48 hours.",
+        "Offer a personalized contract upgrade with a 15\u201320% loyalty discount.",
+        "Incentivize migration to an annual contract with exclusive benefits.",
+        "Deploy early-lifecycle engagement program with a dedicated onboarding specialist."
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "timestamp": "2026-06-13T12:11:59.485464",
+    "input": {
+      "gender": "male",
+      "tenure": 2,
+      "monthly_charges": 42.3,
+      "contract": "monthly",
+      "internet_service": "fiber"
+    },
+    "result": {
+      "prediction": "Churn",
+      "probability": 76.6,
+      "confidence": 76.6,
+      "risk_level": "High Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: InternetService Fiber optic",
+          "Increases risk: Short Tenure"
+        ],
+        "retention_factors": [
+          "Decreases risk: PaymentMethod Mailed check"
+        ],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.2819
+          },
+          {
+            "feature": "InternetService Fiber optic",
+            "type": "negative",
+            "text": "Increases risk: InternetService Fiber optic",
+            "score": 0.0799
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.014
+          },
+          {
+            "feature": "PaymentMethod Mailed check",
+            "type": "positive",
+            "text": "Decreases risk: PaymentMethod Mailed check",
+            "score": 0.0043
+          }
+        ]
+      },
+      "recommendations": [
+        "Immediate action required \u2014 assign a dedicated retention agent within 48 hours.",
+        "Offer a personalized contract upgrade with a 15\u201320% loyalty discount.",
+        "Incentivize migration to an annual contract with exclusive benefits.",
+        "Deploy early-lifecycle engagement program with a dedicated onboarding specialist."
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "timestamp": "2026-06-13T12:11:50.553826",
+    "input": {
+      "gender": "male",
+      "tenure": 2,
+      "monthly_charges": 42.3,
+      "contract": "monthly",
+      "internet_service": "fiber"
+    },
+    "result": {
+      "prediction": "Churn",
+      "probability": 60.3,
+      "confidence": 60.3,
+      "risk_level": "Moderate Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: InternetService Fiber optic",
+          "Increases risk: Short Tenure"
+        ],
+        "retention_factors": [
+          "Decreases risk: PaymentMethod Mailed check"
+        ],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.2819
+          },
+          {
+            "feature": "InternetService Fiber optic",
+            "type": "negative",
+            "text": "Increases risk: InternetService Fiber optic",
+            "score": 0.0799
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.014
+          },
+          {
+            "feature": "PaymentMethod Mailed check",
+            "type": "positive",
+            "text": "Decreases risk: PaymentMethod Mailed check",
+            "score": 0.0043
+          }
+        ]
+      },
+      "recommendations": [
+        "Enroll customer in automated loyalty rewards campaign.",
+        "Send a proactive satisfaction survey with personalized follow-up.",
+        "Promote annual contract with a complimentary device offer."
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "timestamp": "2026-06-13T12:10:57.776640",
+    "input": {
+      "gender": "male",
+      "tenure": 2,
+      "monthly_charges": 42.3,
+      "contract": "monthly",
+      "internet_service": "dsl"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 42.2,
+      "confidence": 57.8,
+      "risk_level": "Moderate Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: Short Tenure"
+        ],
+        "retention_factors": [
+          "Decreases risk: InternetService DSL",
+          "Decreases risk: PaymentMethod Bank transfer (automatic)"
+        ],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.2819
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.014
+          },
+          {
+            "feature": "InternetService DSL",
+            "type": "positive",
+            "text": "Decreases risk: InternetService DSL",
+            "score": 0.005
+          },
+          {
+            "feature": "PaymentMethod Bank transfer (automatic)",
+            "type": "positive",
+            "text": "Decreases risk: PaymentMethod Bank transfer (automatic)",
+            "score": 0.0029
+          }
+        ]
+      },
+      "recommendations": [
+        "Enroll customer in automated loyalty rewards campaign.",
+        "Send a proactive satisfaction survey with personalized follow-up.",
+        "Promote annual contract with a complimentary device offer."
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "timestamp": "2026-06-13T12:10:46.644462",
+    "input": {
+      "gender": "male",
+      "tenure": 2,
+      "monthly_charges": 42.3,
+      "contract": "monthly",
+      "internet_service": "dsl"
+    },
+    "result": {
+      "prediction": "Churn",
+      "probability": 54.6,
+      "confidence": 54.6,
+      "risk_level": "Moderate Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: Short Tenure"
+        ],
+        "retention_factors": [
+          "Decreases risk: InternetService DSL",
+          "Decreases risk: PaymentMethod Bank transfer (automatic)"
+        ],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.2819
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.014
+          },
+          {
+            "feature": "InternetService DSL",
+            "type": "positive",
+            "text": "Decreases risk: InternetService DSL",
+            "score": 0.005
+          },
+          {
+            "feature": "PaymentMethod Bank transfer (automatic)",
+            "type": "positive",
+            "text": "Decreases risk: PaymentMethod Bank transfer (automatic)",
+            "score": 0.0029
+          }
+        ]
+      },
+      "recommendations": [
+        "Enroll customer in automated loyalty rewards campaign.",
+        "Send a proactive satisfaction survey with personalized follow-up.",
+        "Promote annual contract with a complimentary device offer."
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "timestamp": "2026-06-13T12:10:40.909799",
+    "input": {
+      "gender": "male",
+      "tenure": 2,
+      "monthly_charges": 42.3,
+      "contract": "monthly",
+      "internet_service": "dsl"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 44.4,
+      "confidence": 55.6,
+      "risk_level": "Moderate Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: Short Tenure"
+        ],
+        "retention_factors": [
+          "Decreases risk: InternetService DSL",
+          "Decreases risk: PaymentMethod Bank transfer (automatic)"
+        ],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.2819
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.014
+          },
+          {
+            "feature": "InternetService DSL",
+            "type": "positive",
+            "text": "Decreases risk: InternetService DSL",
+            "score": 0.005
+          },
+          {
+            "feature": "PaymentMethod Bank transfer (automatic)",
+            "type": "positive",
+            "text": "Decreases risk: PaymentMethod Bank transfer (automatic)",
+            "score": 0.0029
+          }
+        ]
+      },
+      "recommendations": [
+        "Enroll customer in automated loyalty rewards campaign.",
+        "Send a proactive satisfaction survey with personalized follow-up.",
+        "Promote annual contract with a complimentary device offer."
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "timestamp": "2026-06-13T12:10:26.554975",
+    "input": {
+      "gender": "male",
+      "tenure": 2,
+      "monthly_charges": 42.3,
+      "contract": "monthly",
+      "internet_service": "dsl"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 48.6,
+      "confidence": 51.4,
+      "risk_level": "Moderate Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: Short Tenure"
+        ],
+        "retention_factors": [
+          "Decreases risk: InternetService DSL",
+          "Decreases risk: PaymentMethod Bank transfer (automatic)"
+        ],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.2819
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.014
+          },
+          {
+            "feature": "InternetService DSL",
+            "type": "positive",
+            "text": "Decreases risk: InternetService DSL",
+            "score": 0.005
+          },
+          {
+            "feature": "PaymentMethod Bank transfer (automatic)",
+            "type": "positive",
+            "text": "Decreases risk: PaymentMethod Bank transfer (automatic)",
+            "score": 0.0029
+          }
+        ]
+      },
+      "recommendations": [
+        "Enroll customer in automated loyalty rewards campaign.",
+        "Send a proactive satisfaction survey with personalized follow-up.",
+        "Promote annual contract with a complimentary device offer."
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "timestamp": "2026-06-13T12:10:26.374882",
+    "input": {
+      "gender": "male",
+      "tenure": 2,
+      "monthly_charges": 42.3,
+      "contract": "monthly",
+      "internet_service": "dsl"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 48.6,
+      "confidence": 51.4,
+      "risk_level": "Moderate Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: Short Tenure"
+        ],
+        "retention_factors": [
+          "Decreases risk: InternetService DSL",
+          "Decreases risk: PaymentMethod Bank transfer (automatic)"
+        ],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.2819
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.014
+          },
+          {
+            "feature": "InternetService DSL",
+            "type": "positive",
+            "text": "Decreases risk: InternetService DSL",
+            "score": 0.005
+          },
+          {
+            "feature": "PaymentMethod Bank transfer (automatic)",
+            "type": "positive",
+            "text": "Decreases risk: PaymentMethod Bank transfer (automatic)",
+            "score": 0.0029
+          }
+        ]
+      },
+      "recommendations": [
+        "Enroll customer in automated loyalty rewards campaign.",
+        "Send a proactive satisfaction survey with personalized follow-up.",
+        "Promote annual contract with a complimentary device offer."
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "timestamp": "2026-06-13T12:10:20.343871",
+    "input": {
+      "gender": "male",
+      "tenure": 2,
+      "monthly_charges": 42.3,
+      "contract": "monthly",
+      "internet_service": "dsl"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 27.9,
+      "confidence": 72.1,
+      "risk_level": "Low Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: Short Tenure"
+        ],
+        "retention_factors": [
+          "Decreases risk: InternetService DSL",
+          "Decreases risk: PaymentMethod Bank transfer (automatic)"
+        ],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.2819
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.014
+          },
+          {
+            "feature": "InternetService DSL",
+            "type": "positive",
+            "text": "Decreases risk: InternetService DSL",
+            "score": 0.005
+          },
+          {
+            "feature": "PaymentMethod Bank transfer (automatic)",
+            "type": "positive",
+            "text": "Decreases risk: PaymentMethod Bank transfer (automatic)",
+            "score": 0.0029
+          }
+        ]
+      },
+      "recommendations": [
+        "Customer is stable \u2014 maintain regular touchpoint cadence.",
+        "Upsell opportunity: recommend Tech Support or Device Protection add-on."
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "timestamp": "2026-06-13T12:10:03.629084",
+    "input": {
+      "gender": "male",
+      "tenure": 2,
+      "monthly_charges": 42.3,
+      "contract": "one-year",
+      "internet_service": "dsl"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 5.2,
+      "confidence": 94.8,
+      "risk_level": "Low Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Short Tenure"
+        ],
+        "retention_factors": [
+          "Decreases risk: InternetService DSL",
+          "Decreases risk: PaymentMethod Bank transfer (automatic)"
+        ],
+        "impacts": [
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.014
+          },
+          {
+            "feature": "InternetService DSL",
+            "type": "positive",
+            "text": "Decreases risk: InternetService DSL",
+            "score": 0.005
+          },
+          {
+            "feature": "PaymentMethod Bank transfer (automatic)",
+            "type": "positive",
+            "text": "Decreases risk: PaymentMethod Bank transfer (automatic)",
+            "score": 0.0029
+          },
+          {
+            "feature": "Contract One year",
+            "type": "positive",
+            "text": "Decreases risk: Contract One year",
+            "score": 0.0027
+          }
+        ]
+      },
+      "recommendations": [
+        "Customer is stable \u2014 maintain regular touchpoint cadence.",
+        "Upsell opportunity: recommend Tech Support or Device Protection add-on."
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "timestamp": "2026-06-13T12:09:15.812009",
+    "input": {
+      "gender": "male",
+      "tenure": 45,
+      "monthly_charges": 42.3,
+      "contract": "one-year",
+      "internet_service": "dsl"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 2.4,
+      "confidence": 97.6,
+      "risk_level": "Low Risk",
+      "xai": {
+        "risk_drivers": [],
+        "retention_factors": [
+          "Decreases risk: Long Tenure",
+          "Decreases risk: InternetService DSL"
+        ],
+        "impacts": [
+          {
+            "feature": "Long Tenure",
+            "type": "positive",
+            "text": "Decreases risk: Long Tenure",
+            "score": 0.014
+          },
+          {
+            "feature": "InternetService DSL",
+            "type": "positive",
+            "text": "Decreases risk: InternetService DSL",
+            "score": 0.005
+          },
+          {
+            "feature": "PaymentMethod Bank transfer (automatic)",
+            "type": "positive",
+            "text": "Decreases risk: PaymentMethod Bank transfer (automatic)",
+            "score": 0.0029
+          },
+          {
+            "feature": "Contract One year",
+            "type": "positive",
+            "text": "Decreases risk: Contract One year",
+            "score": 0.0027
+          }
+        ]
+      },
+      "recommendations": [
+        "Customer is stable \u2014 maintain regular touchpoint cadence.",
+        "Upsell opportunity: recommend Tech Support or Device Protection add-on.",
+        "Recognize customer loyalty with a tenure milestone reward."
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "timestamp": "2026-06-13T12:06:43.545052",
+    "input": {
+      "gender": "male",
+      "tenure": 2,
+      "monthly_charges": 53.85,
+      "contract": "monthly",
+      "internet_service": "dsl"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 41.3,
+      "confidence": 58.7,
+      "risk_level": "Moderate Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: Short Tenure"
+        ],
+        "retention_factors": [
+          "Decreases risk: InternetService DSL",
+          "Decreases risk: PaymentMethod Mailed check"
+        ],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.2819
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.014
+          },
+          {
+            "feature": "InternetService DSL",
+            "type": "positive",
+            "text": "Decreases risk: InternetService DSL",
+            "score": 0.005
+          },
+          {
+            "feature": "PaymentMethod Mailed check",
+            "type": "positive",
+            "text": "Decreases risk: PaymentMethod Mailed check",
+            "score": 0.0043
+          }
+        ]
+      },
+      "recommendations": [
+        "Enroll customer in automated loyalty rewards campaign.",
+        "Send a proactive satisfaction survey with personalized follow-up.",
+        "Promote annual contract with a complimentary device offer."
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "timestamp": "2026-06-13T10:22:25.057101",
+    "input": {
+      "gender": "male",
+      "tenure": 2,
+      "monthly_charges": 85.0,
+      "contract": "monthly",
+      "internet_service": "fiber"
+    },
+    "result": {
+      "prediction": "Churn",
+      "probability": 82.9,
+      "confidence": 82.9,
+      "risk_level": "High Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: High Monthly Charges",
+          "Increases risk: InternetService Fiber optic"
+        ],
+        "retention_factors": [],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.2819
+          },
+          {
+            "feature": "High Monthly Charges",
+            "type": "negative",
+            "text": "Increases risk: High Monthly Charges",
+            "score": 0.1408
+          },
+          {
+            "feature": "InternetService Fiber optic",
+            "type": "negative",
+            "text": "Increases risk: InternetService Fiber optic",
+            "score": 0.0799
+          },
+          {
+            "feature": "PaymentMethod Electronic check",
+            "type": "negative",
+            "text": "Increases risk: PaymentMethod Electronic check",
+            "score": 0.0235
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.014
+          }
+        ]
+      },
+      "recommendations": [
+        "Immediate action required \u2014 assign a dedicated retention agent within 48 hours.",
+        "Offer a personalized contract upgrade with a 15\u201320% loyalty discount.",
+        "Present a bundle downgrade option to reduce bill shock.",
+        "Incentivize migration to an annual contract with exclusive benefits.",
+        "Deploy early-lifecycle engagement program with a dedicated onboarding specialist."
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "timestamp": "2026-06-12T11:34:08.426375",
+    "input": {
+      "gender": "male",
+      "tenure": 12,
+      "monthly_charges": 65.0,
+      "contract": "monthly",
+      "internet_service": "fiber"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 45.4,
+      "confidence": 54.6,
+      "risk_level": "Moderate Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: Short Tenure",
+          "Increases risk: InternetService Fiber optic"
+        ],
+        "retention_factors": [],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.4203
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.1613
+          },
+          {
+            "feature": "InternetService Fiber optic",
+            "type": "negative",
+            "text": "Increases risk: InternetService Fiber optic",
+            "score": 0.1153
+          },
+          {
+            "feature": "PaymentMethod Electronic check",
+            "type": "negative",
+            "text": "Increases risk: PaymentMethod Electronic check",
+            "score": 0.0424
+          }
+        ]
+      },
+      "recommendations": [
+        "Enroll customer in automated loyalty rewards campaign.",
+        "Send a proactive satisfaction survey with personalized follow-up.",
+        "Promote annual contract with a complimentary device offer.",
+        "Highlight value-added services the customer is not yet using."
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "timestamp": "2026-06-12T11:07:49.155153",
+    "input": {
+      "gender": "female",
+      "tenure": 23,
+      "monthly_charges": 29.0,
+      "contract": "monthly",
+      "internet_service": "dsl"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 25.0,
+      "confidence": 75.0,
+      "risk_level": "Low Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: PaymentMethod Electronic check"
+        ],
+        "retention_factors": [
+          "Decreases risk: InternetService DSL"
+        ],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.4203
+          },
+          {
+            "feature": "PaymentMethod Electronic check",
+            "type": "negative",
+            "text": "Increases risk: PaymentMethod Electronic check",
+            "score": 0.0424
+          },
+          {
+            "feature": "InternetService DSL",
+            "type": "positive",
+            "text": "Decreases risk: InternetService DSL",
+            "score": 0.0018
+          }
+        ]
+      },
+      "recommendations": [
+        "Customer is stable \u2014 maintain regular touchpoint cadence.",
+        "Upsell opportunity: recommend Tech Support or Device Protection add-on."
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "timestamp": "2026-06-12T11:07:22.088445",
+    "input": {
+      "gender": "female",
+      "tenure": 1,
+      "monthly_charges": 29.0,
+      "contract": "monthly",
+      "internet_service": "dsl"
+    },
+    "result": {
+      "prediction": "Churn",
+      "probability": 67.4,
+      "confidence": 67.4,
+      "risk_level": "Moderate Risk",
+      "xai": {
+        "risk_drivers": [
+          "Increases risk: Contract Month-to-month",
+          "Increases risk: Short Tenure",
+          "Increases risk: PaymentMethod Electronic check"
+        ],
+        "retention_factors": [
+          "Decreases risk: InternetService DSL"
+        ],
+        "impacts": [
+          {
+            "feature": "Contract Month-to-month",
+            "type": "negative",
+            "text": "Increases risk: Contract Month-to-month",
+            "score": 0.4203
+          },
+          {
+            "feature": "Short Tenure",
+            "type": "negative",
+            "text": "Increases risk: Short Tenure",
+            "score": 0.1613
+          },
+          {
+            "feature": "PaymentMethod Electronic check",
+            "type": "negative",
+            "text": "Increases risk: PaymentMethod Electronic check",
+            "score": 0.0424
+          },
+          {
+            "feature": "InternetService DSL",
+            "type": "positive",
+            "text": "Decreases risk: InternetService DSL",
+            "score": 0.0018
+          }
+        ]
+      },
+      "recommendations": [
+        "Enroll customer in automated loyalty rewards campaign.",
+        "Send a proactive satisfaction survey with personalized follow-up.",
+        "Promote annual contract with a complimentary device offer."
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-06-11T22:30:34.994340",
+    "input": {
+      "gender": "male",
+      "tenure": 1,
+      "monthly_charges": 65.0,
+      "contract": "monthly",
+      "internet_service": "fiber"
+    },
+    "result": {
+      "prediction": "Churn",
+      "probability": 74.7,
+      "confidence": 74.7,
+      "risk_level": "High Risk",
+      "recommendations": [
+        "Immediate action required \u2014 assign a dedicated retention agent within 48 hours.",
+        "Offer a personalized contract upgrade with a 15\u201320% loyalty discount.",
+        "Incentivize migration to an annual contract with exclusive benefits.",
+        "Deploy early-lifecycle engagement program with a dedicated onboarding specialist."
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-06-11T22:30:29.894497",
+    "input": {
+      "gender": "male",
+      "tenure": 1,
+      "monthly_charges": 65.0,
+      "contract": "one-year",
+      "internet_service": "fiber"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 19.2,
+      "confidence": 80.8,
+      "risk_level": "Low Risk",
+      "recommendations": [
+        "Customer is stable \u2014 maintain regular touchpoint cadence.",
+        "Upsell opportunity: recommend Tech Support or Device Protection add-on."
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "timestamp": "2026-06-11T22:30:20.186698",
+    "input": {
+      "gender": "male",
+      "tenure": 12,
+      "monthly_charges": 65.0,
+      "contract": "one-year",
+      "internet_service": "fiber"
+    },
+    "result": {
+      "prediction": "No Churn",
+      "probability": 9.4,
+      "confidence": 90.6,
+      "risk_level": "Low Risk",
+      "recommendations": [
+        "Customer is stable \u2014 maintain regular touchpoint cadence.",
+        "Upsell opportunity: recommend Tech Support or Device Protection add-on."
+      ]
+    }
+  }
+]
